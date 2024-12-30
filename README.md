@@ -1,10 +1,12 @@
+### This fork is designed to continue the work that was previously dependent on Censys by collecting similar data on a daily basis. The objective is to maintain the continuity of data acquisition, ensuring that researchers, analysts, and other stakeholders continue to have access to up-to-date information.
+
 # K8s Censys information
 
 This is a repository containing daily information about publicly visible Kubernetes clusters taken from [Censys](https://censys.io/) results, which can be useful for undestanding the uptake of different Kubernetes versions and platforms in the wild.
 
 For background about why it's possible to gather this information, you can see [this blog post](https://raesene.github.io/blog/2021/06/05/A-Census-of-Kubernetes-Clusters/), [this blog post](https://raesene.github.io/blog/2022/07/03/lets-talk-about-kubernetes-on-the-internet/), and [this blog post](https://raesene.github.io/blog/2024/02/17/a-final-kubernetes-censys/)
 
-The dataset runs from September 2022 to 5th February 2024. The data is in `/data/[YEAR]`
+The dataset runs from September 2022 to ~~5th February 2024~~. The data is in `/data/[YEAR]`
 
 Censys have now (as of 17th Feb 2024) cancelled their free API access, so there will be no further updates to this dataset.
 
